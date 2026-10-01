@@ -1,0 +1,14 @@
+{
+  "name": "recipe-project",
+  "version": "1.0.0",
+  "description": "Web Design Recipe Project",
+  "scripts": {
+    "start": "npx --yes live-server --no-browser --port=5500 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
