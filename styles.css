@@ -1,6 +1,30 @@
 /* Your styles go here! */
 h1 {
-  /* Demo style -- remove me and write your own */
   font-size: 48px;
-  color: purple;
+  color: rgb(255, 0, 255)
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(0, 255, 255)
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(0, 0, 255)
+}
+
+li {
+  font-size: 15px;
+  color: rgb(0, 255, 0)
+}
+
+p {
+  font-size: 16px;
+  color: yellow
+}
+
+body {
+  background-color: chocolate;
+  text-shadow: 15px 0px rgb(81, 10, 29);
 }
