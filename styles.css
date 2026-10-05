@@ -38,5 +38,22 @@ body {
 }
 
 .step1 {
-  background-color: white;
+  background-color: rgb(109, 123, 156);
+  margin-left: 25px;
+}
+
+.step2 {
+  background-color: gray;
+}
+
+.step3 {
+  background-color: cornflowerblue;
+}
+
+.step4 {
+  background-color: greenyellow;
+}
+
+.step5 {
+  background-color: indianred;
 }
