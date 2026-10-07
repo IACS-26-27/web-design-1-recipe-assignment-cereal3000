@@ -1,10 +1,10 @@
 /* these are the variables I had to add for color and if you couldn't tell, I don't like it */
 :root {
---idontlikethis: rgb(109, 123, 156);
---idislikethis: rgb(56, 55, 52);
---idontenjoythis: rgb(47, 47, 83);
---idespisethis: rgb(39, 39, 24);
---okaymaybenotdespisebutidontlikeit: rgb(31, 30, 30);
+--idontlikethis: rgb(52, 66, 106);
+--idislikethis: rgb(155, 150, 135);
+--idontenjoythis: rgb(150, 150, 190);
+--idespisethis: rgb(1, 29, 61);
+--okaymaybenotdespisebutidontlikeit: rgb(60, 57, 57);
 }
 
 h1 {
@@ -38,22 +38,26 @@ body {
 }
 
 .step1 {
-  background-color: rgb(122, 137, 171);
+  background-color: rgb(101, 117, 154);
   margin-left: 25px;
 }
 
 .step2 {
-  background-color: rgb(255,255,255);
+  background-color: rgb(94, 94, 103);
+  margin-left: 25px;
 }
 
 .step3 {
-  background-color: cornflowerblue;
+  background-color: rgb(78, 108, 163);
+  margin-left: 25px;
 }
 
 .step4 {
-  background-color: greenyellow;
+  background-color: rgb(112, 131, 144);
+  margin-left: 25px;
 }
 
 .step5 {
-  background-color: indianred;
+  background-color: rgba(123, 149, 139, 0.3);
+  margin-left: 25px;
 }
