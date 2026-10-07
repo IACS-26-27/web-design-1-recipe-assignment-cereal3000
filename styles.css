@@ -1,4 +1,4 @@
-/* these are the variables I had to add for color and if you couldn't tell, I don't like it */
+/* these are the variables I had to add for color*/
 :root {
 --idontlikethis: rgb(83, 102, 155);
 --idislikethis: rgb(219, 217, 212);
@@ -10,6 +10,10 @@
 h1 {
   text-align: center;
   font-size: 48px;
+  /* AI-generated code starts here (As instructed in fonts tutorial) */
+    /* Student prompt: "Please use the # Caveat font from Google Fonts and use it for my h1 heading." */
+  font-family: "Caveat", cursive;
+  /* AI-generated code ends here */
   color: var(--idislikethis);
 }
 
@@ -20,17 +24,17 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: var(--idespisethis);
 }
 
 li {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--okaymaybenotdespisebutidontlikeit);
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -53,11 +57,11 @@ body {
 }
 
 .step4 {
-  background-color: rgba(112, 131, 144, 0.15);
+  background-color: rgba(170, 196, 213, 0.15);
   margin-left: 25px;
 }
 
 .step5 {
-  background-color: rgba(123, 149, 139, 0.15);
+  background-color: rgba(181, 213, 201, 0.15);
   margin-left: 25px;
 }
