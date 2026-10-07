@@ -23,18 +23,6 @@ side-by-side in this project (unless you use `float`).
 
 ### Honors Components (in addition to main components):
 
-- Store your color scheme in CSS variables (`--main-color: ...;`) and use
-  them throughout your stylesheet. For example:
-
-  ```css
-  :root {
-    --theme-color: #0033a0;
-  }
-  h1 {
-    color: var(--theme-color);
-  }
-  ```
-
 - **Advanced typography:** pair a heading font with a body font, and use at
   least three of these to fine-tune your text:
   - `font-weight` (using more than one weight of a font)
