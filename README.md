@@ -1,18 +1,10 @@
 - At least one image (`<img>`) with `alt` text describing it
-- **Your sections:** `padding`, `margin`, and a `border` or background color
-  so each part of the recipe is clearly grouped
 - **Images:** a size that fits nicely on the page
 - **Fonts:** At least one custom font from [Google Fonts](https://fonts.google.com/).
 - **The typography triangle:** Readable text comes from balancing three things:
   - `font-size` — how big the letters are
   - `line-height` — how much space is between the lines
   - `max-width` — how long each line can get
-- **Selectors:** Element selectors (`h2 { ... }`), at least one class
-  (`.tip { ... }`) that styles _some_ elements differently from others of the
-  same type, and at least one descendant selector (`.tip p { ... }`) that
-  styles elements only when they are inside something else.
-- **The box model:** `padding`, `margin`, and `border` to group related
-  content and give your page room to breathe.
 - **Organization:** Your `styles.css` is organized into sections with
   comments explaining what each part styles.
 
@@ -22,15 +14,6 @@ We'll get to those soon. That means you generally won't be able to put items
 side-by-side in this project (unless you use `float`).
 
 ### Honors Components (in addition to main components):
-
-- **Advanced typography:** pair a heading font with a body font, and use at
-  least three of these to fine-tune your text:
-  - `font-weight` (using more than one weight of a font)
-  - `letter-spacing`
-  - `text-transform` (for example, all-caps headings)
-  - `font-variant: small-caps`
-  - `font-variant-numeric: diagonal-fractions` (makes 1/2 look like ½)
-  - `text-align` and `text-indent`
 - Customize list markers (bullets and numbers) using `list-style` or `::marker`.
 - Use a pseudo-element (`::before` or `::after`) to add a custom marker to at least one item.
 - Use a "recipe info" box (prep time, cook time, servings — or the
