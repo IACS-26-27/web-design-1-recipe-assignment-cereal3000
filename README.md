@@ -1,23 +1,4 @@
-- At least one image (`<img>`) with `alt` text describing it
-- **Images:** a size that fits nicely on the page
 - **Fonts:** At least one custom font from [Google Fonts](https://fonts.google.com/).
-- **The typography triangle:** Readable text comes from balancing three things:
-  - `font-size` — how big the letters are
-  - `line-height` — how much space is between the lines
-  - `max-width` — how long each line can get
-- **Organization:** Your `styles.css` is organized into sections with
-  comments explaining what each part styles.
-
-**No layout tools yet!** For this project, your page should flow from top to
-bottom. Do not use `display: flex`, `display: grid`, or `position`.
-We'll get to those soon. That means you generally won't be able to put items
-side-by-side in this project (unless you use `float`).
-
-### Honors Components (in addition to main components):
-- Customize list markers (bullets and numbers) using `list-style` or `::marker`.
-- Use a pseudo-element (`::before` or `::after`) to add a custom marker to at least one item.
-- Use a "recipe info" box (prep time, cook time, servings — or the
-  metaphorical equivalent) styled with a class.
 
 ## Resources
 

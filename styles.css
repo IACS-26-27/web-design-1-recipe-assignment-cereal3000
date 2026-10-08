@@ -6,6 +6,7 @@
 --idespisethis: rgb(1, 29, 61);
 --okaymaybenotdespisebutidontlikeit: rgb(40, 37, 40);
 }
+
 /*this is AI SLOP give me an F for cheating*/
 h1 {
   text-align: center;
@@ -17,32 +18,39 @@ h1 {
   color: var(--idislikethis);
 }
 
+/* this is the second level header. it is centered, sized, and variabled */
 h2 {
   text-align: center;
   font-size: 36px;
   color: var(--idontenjoythis);
 }
 
+/* this is the third level header. I specified the size, color, and made it uppercase */
 h3 {
   font-size: 25px;
   color: var(--idespisethis);
   text-transform: uppercase;
 }
 
+/* this is a list item and I specified the size, color, and bullet type. fun fact: the bullet is an emoji */
 li {
   font-size: 18px;
   color: var(--okaymaybenotdespisebutidontlikeit);
   list-style-type: "▪️";
 }
 
+/* this makes the font be crazy cool yo */
 p {
   font-size: 18px;
+  line-height: 23px;
 }
 
+/* this is where the background color lies */
 body {
   background-color: var(--idontlikethis);
 }
 
+/* this was making the div a cool box section thing */
 .step1 {
   background-color: rgba(145, 167, 219, 0.5);
   border: 3px solid var(--okaymaybenotdespisebutidontlikeit);
@@ -52,6 +60,7 @@ body {
   max-width: 500px;
 }
 
+/* this was making the OTHER div a cool box section thing */
 .step2 {
   background-color: rgba(231, 231, 254, 0.2);
   padding-left: 25px;
@@ -61,6 +70,7 @@ body {
   max-width: 500px;
 }
 
+/* this was making yet ANOTHER div a cool box section thing */
 .step3 {
   background-color: rgba(130, 163, 224, 0.3);
   border: 3px solid var(--okaymaybenotdespisebutidontlikeit);
@@ -70,11 +80,13 @@ body {
   max-width: 500px;
 }
 
+/* this made the FLIP-FLOP-AROO be what it is today */
 .step3 h2{
   color: rgb(75, 66, 25);
   letter-spacing: 5px;
 }
 
+/*this was another box............. div box...... div........ */
 .step4 {
   background-color: rgba(170, 196, 213, 0.15);
   border: 3px solid var(--okaymaybenotdespisebutidontlikeit);
@@ -84,6 +96,7 @@ body {
   max-width: 500px;
 }
 
+/* div is box */
 .step5 {
   background-color: rgba(181, 213, 201, 0.15);
   border: 3px solid var(--okaymaybenotdespisebutidontlikeit);
@@ -93,8 +106,35 @@ body {
   max-width: 500px;
 }
 
+/* i think the line below this is enough of a description */
 .thebottomborderthatiwantforjustthetopofthepage {
   border-bottom: 5px solid var(--idislikethis);
   width: 400px;
   margin: auto;
+}
+
+/* this makes the image big but not off the page */
+img {
+  max-width: 100%
+}
+
+/* yellow */
+a {
+  color: rgb(255, 255, 0)
+}
+
+/* last-minute implementation of before */
+a::before {
+  content: "🔗 ";
+}
+
+/* hover */
+a:hover {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* i needed to have an info section so I reused an existing thing and called it info */
+.info h2 {
+  color:aqua;
 }
